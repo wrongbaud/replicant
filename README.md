@@ -1,27 +1,15 @@
 # Replicant
 
-Fault Injection Research and Resources - read corresponding blog post [here](https://voidstarsec.com/blog/replicant-part-1)
+Fault Injection Research and Resources:
+    - Blog post [here](https://voidstarsec.com/blog/replicant-part-1)
+    - Slides [here](https://wrongbaud.github.io/replicant-slides)
+    
+The tools in this repository were used to replicate a fault injection attack on the Trezor One wallet. See the [blog post](https://voidstarsec.com/blog/replicant-part-1) for more details!
 
 # Contents
 
 - ```replicant.py``` - Glitching code for ChipWhisperer
 - ```usbreset.c``` - C Code for USB device reset (for STLink)
-
-# Dependencies
-
-- [pyswd](https://github.com/cortexm/pyswd)
-- [pyocd](https://github.com/pyocd/pyOCD) 
-
-# Working offsets 
-- 19743 
-- 19757 
-- 19761
-- 19780
-- 19752
-- 19531
-- 19629
-- 19618
-- 19620
 
 # Reference Materials
 
